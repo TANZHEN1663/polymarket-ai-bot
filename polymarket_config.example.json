@@ -1,0 +1,58 @@
+{
+  "polymarket": {
+    "api_key": "019ca3cb-0785-7d29-be66-49d127295c84",
+    "api_secret": "2PbmpA-tT-ajJX0-VEISZkbcWr555tWtK2A3mugjyvw=",
+    "passphrase": "4789d011a4387c401bed22ec1884a8bc038748b2e608b5f742437cb36d658b26",
+    "timeout": 30,
+    "retry_count": 3,
+    "retry_wait": 1,
+    "environment": "production"
+  },
+  "risk": {
+    "total_capital": 10000,
+    "max_position_size": 500,
+    "max_position_percent": 0.05,
+    "daily_loss_limit": 500,
+    "max_drawdown": 0.15,
+    "max_trade_count": 100,
+    "daily_trade_limit": 20,
+    "kelly_multiplier": 0.25,
+    "min_confidence": 50.0,
+    "max_liquidity_slippage": 0.05,
+    "diversification_limit": 0.2
+  },
+  "ai": {
+    "provider": "deepseek",
+    "model": "deepseek-reasoner",
+    "api_key": "sk-04361f4393094392ab5e618dffd3525c",
+    "base_url": "https://api.deepseek.com",
+    "temperature": 0.3,
+    "max_tokens": 2000,
+    "timeout": 30,
+    "cache_enabled": true,
+    "cache_ttl": 1800
+  },
+  "trading": {
+    "enabled": false,
+    "mode": "paper",
+    "allowed_strategies": ["VALUE_BET", "ARBITRAGE", "MOMENTUM"],
+    "allowed_markets": [],
+    "blocked_markets": [],
+    "min_liquidity": 5000,
+    "min_volume_24h": 10000,
+    "max_slippage": 0.05,
+    "auto_compound": false,
+    "rebalance_threshold": 0.1,
+    "scan_interval": 60,
+    "max_open_positions": 10
+  },
+  "logging": {
+    "level": "info",
+    "format": "json",
+    "output": "stdout",
+    "file": "polymarket_bot.log",
+    "max_size": 10,
+    "max_backups": 3,
+    "max_age": 30
+  }
+}
