@@ -1,8 +1,8 @@
 {
   "polymarket": {
-    "api_key": "019ca3cb-0785-7d29-be66-49d127295c84",
-    "api_secret": "2PbmpA-tT-ajJX0-VEISZkbcWr555tWtK2A3mugjyvw=",
-    "passphrase": "4789d011a4387c401bed22ec1884a8bc038748b2e608b5f742437cb36d658b26",
+    "api_key": "",
+    "api_secret": "",
+    "passphrase": "",
     "timeout": 30,
     "retry_count": 3,
     "retry_wait": 1,
@@ -24,7 +24,7 @@
   "ai": {
     "provider": "deepseek",
     "model": "deepseek-reasoner",
-    "api_key": "sk-04361f4393094392ab5e618dffd3525c",
+    "api_key": "",
     "base_url": "https://api.deepseek.com",
     "temperature": 0.3,
     "max_tokens": 2000,
